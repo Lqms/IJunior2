@@ -10,7 +10,7 @@ public enum Position
     Bottom
 }
 
-public class EnemyController : MonoBehaviour
+public class EnemyLogic : MonoBehaviour
 {
     private Position _position;
     private float _minimalSpeed = 1f;
